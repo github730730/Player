@@ -1,3 +1,4 @@
+import { DiscordIcon, TelegramIcon, TwitterIcon } from '@/tool/Icon';
 import React from 'react';
 
 const Suspension = () => {
@@ -7,25 +8,25 @@ const Suspension = () => {
         href="http://"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-400"
+        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-700"
       >
-        tw
+        <TwitterIcon width={24} height={24} className="" />
       </a>
       <a
         href="http://"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-400"
+        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-700"
       >
-        tg
+        <TelegramIcon width={24} height={24} className="" />
       </a>
       <a
         href="http://"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-400"
+        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-700"
       >
-        dc
+        <DiscordIcon width={24} height={24} className="" />
       </a>
     </div>
   );
